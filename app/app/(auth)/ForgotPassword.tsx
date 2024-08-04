@@ -44,7 +44,7 @@ export default function ForgotPassword() {
       <TouchableOpacity style={styles.loginBtn} onPress={handleRequestReset}>
         <Text style={styles.loginText}>REQUEST RESET LINK</Text>
       </TouchableOpacity>
-      <Link href={"/"}>
+      <Link href={'/'}>
         <Text style={styles.forgot}>Back to Login</Text>
       </Link>
     </View>

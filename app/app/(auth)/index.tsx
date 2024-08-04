@@ -64,12 +64,12 @@ export default function App() {
           onChangeText={(text) => setPassword(text)}
         />
       </View>
-      <Link href={"/(tabs)"}>
+      <Link href={"/ForgotPassword"}>
         <Text style={styles.forgot}>Forgot Password?</Text>
       </Link>
-      <TouchableOpacity style={styles.loginBtn} onPress={handleLogin}>
+      <Link style={styles.loginBtn} href={"/(tabs)"}>
         <Text style={styles.loginText}>LOGIN</Text>
-      </TouchableOpacity>
+      </Link>
     </View>
   );
 }
